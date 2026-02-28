@@ -69,11 +69,8 @@ All six modes preserve the validated formulations from the desktop Unity impleme
 
 ## ⚡ Quick Start
 
-```
-1. Clone this repo
-2. Open index.html in a WebGPU-capable browser
-3. Load a dataset or click "Load Synthetic (288K)" to try it immediately
-```
+[🚀 Open NeuroConstellation Web](https://safeeralimirani.github.io/NeuroConstellationWeb/)
+
 
 That's it. No `npm install`, no build step, no configuration.
 
@@ -160,12 +157,12 @@ Generates a hippocampal-shaped distribution of 288,027 neurons with configurable
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                   NeuroConstellation Web                  │
+│                   NeuroConstellation Web                 │
 ├────────────┬────────────┬────────────┬───────────────────┤
 │    Data    │    WGSL    │  Billboard │    Interactive    │
-│   Loader   │   Compute  │  Renderer  │     Controls     │
+│   Loader   │   Compute  │  Renderer  │     Controls      │
 │            │            │            │                   │
-│  .bin      │  256-thread│  6 verts/  │   6 modes        │
+│  .bin      │  256-thread│  6 verts/  │   6 modes         │
 │  .json     │  workgroups│  neuron    │   orbital camera  │
 │  synthetic │  per frame │  single    │   playback        │
 │            │            │  draw call │   screenshot/video│
